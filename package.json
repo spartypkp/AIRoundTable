@@ -1,0 +1,17 @@
+{
+  "name": "airoundtable",
+  "version": "1.0.0",
+  "description": "Like knights of the round table with LLMs",
+  "main": "index.js",
+  "scripts": {
+    "dev": "next dev --turbo",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "react-dom": "^18.3.1"
+  }
+}

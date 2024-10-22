@@ -1,0 +1,78 @@
+.app-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f4f8; /* Light background */
+}
+
+.table-container {
+    position: relative;
+    width: 80%;
+    height: 80%;
+    background: #e1e1e1;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.agent-icon {
+    width: 100px;
+    height: 100px;
+    background-color: #ffffff;
+    border: 2px solid #ccc;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+    position: absolute;
+    /* Placeholder comment: use CSS positioning or a function to arrange in a circular layout */
+}
+
+.agent-icon:hover {
+    transform: scale(1.1);
+}
+
+.agent-thinking {
+    border-color: #3498db; /* Light blue for thinking state */
+}
+
+.agent-working {
+    border-color: #27ae60; /* Green for working state */
+}
+
+.agent-inactive {
+    border-color: #cccccc; /* Gray for inactive state */
+}
+
+.center-chat-button {
+    width: 120px;
+    height: 120px;
+    background-color: #3498db;
+    border-radius: 50%;
+    border: none;
+    color: white;
+    font-size: 1.2rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.center-chat-button:hover {
+    background-color: #2980b9;
+}
+
+.popup-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
